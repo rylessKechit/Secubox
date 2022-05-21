@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr" class="hasJS js">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Muli|Ubuntu&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/logo.png">
+    <title>Sécubox - Connexion</title>
+</head>
+
+<body>
+    <div id="bloc_page">
+        <img alt="logo" src="images/logo.png" class="center"/>
+        <h1 id="phrase">Wifi - Authentification :</h1>
+        <div class="container">
+
+            <form id="theform" method="post" action="/verif.php">
+
+                <div class="form-group">
+                    <label class="control-label" for="username">Identifiant :</label>
+                    <input type="text" class="form-control " id="username" name="username" placeholder="Entrer votre adresse e-mail" required>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label" for="password">Mot de passe :</label>
+                    <input type="password" class="form-control" name="password" id="password" placeholder="Entrer votre mot de passe" required>
+                    <h3 class="mdp-perdu"><a href="reinitialisation.html">Mot de passe oublié?</a></h3>
+                </div>
+
+                <button type="submit">Connexion</button>
+
+            </form>
+
+            <div class="footer">
+                <h2 id="">Pas de compte? 
+                    <a href="inscription.html">Inscrivez-vous</a>
+                </h2>
+                <h2 id="">Êtes-vous le propriétaire? 
+                    <a href="secucode.html">Cliquez ici</a>
+                </h2>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>

@@ -1,0 +1,96 @@
+/* Eléments principaux de la page */
+
+body{
+    background: url("images/ciel.jpg"); 
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    text-align: center;
+}
+
+.col{
+    margin: auto;
+}
+
+#bloc_page{
+    background:white;
+    border-radius: 10px;
+    color: #003b5b;
+    box-shadow: 0 0 10px #000000;
+    width: 400px;
+    margin: auto;
+    margin-top : 40px;
+    margin-bottom: 40px;
+    padding: 30px 20px 20px 20px;
+    font-family: 'Muli', sans-serif;
+}
+
+#logo{
+    padding: 10px;
+}
+
+img{
+    height:100px;
+}
+
+.center{
+    display: block;
+    margin: auto;
+}
+
+h1{
+    font-size: 30px;
+    margin: auto;
+}
+
+h2{
+    font-size: 15px;
+    margin: auto;
+}
+
+#phrase{
+    color: #864500;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#theform {
+    padding-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.control-label{
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=email], input[type=tel]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}

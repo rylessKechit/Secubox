@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr" class="hasJS js">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Muli|Ubuntu&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/logo.png">
+    <title>SécuBox - Sécucode</title>
+</head>
+
+<body>
+    <div id="bloc_page">
+        <img alt="logo" src="images/logo.png" class="center"/>
+        <h1 id="phrase">Identification à une SécuBox:</h1>
+        <div class="col">
+
+            <form id="theform" method="post" action="">
+
+                <div class="form-group">
+                    <label class="control-label" for="username">Identifiant:</label>
+                    <input type="text" class="form-control " id="username" name="username" placeholder="Entrer l'indentifiant de la SécuBox" required>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label" for="password">Code secret</label>
+                    <input type="password" class="form-control" name="password" id="password" placeholder="Entrer le code secret de la SécuBox" required>
+                </div>
+
+                <button type="submit">Valider</button>
+
+            </form>
+
+            <div class="footer">
+                <h2 id="">Êtes-vous un client
+                    <a href="association.html">?</a>
+                    <a href="connexion.html">Revenez à l'accueil</a>
+                </h2>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>
