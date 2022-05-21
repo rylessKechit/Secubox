@@ -11,4 +11,6 @@ router.get('/', (req, res)=> {
     res.send('Route protégée')
 })
 
+// rajouter une route, qui recoit une adresse mail et mot de passe et renvoi un jwt (token)
+
 module.exports = router

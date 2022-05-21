@@ -45,6 +45,7 @@ exports.inscription = (req, res) => {
 */
 
 exports.connexion = (req, res) => {
+    console.log(req.body);
     const {email, password} = req.body
     // validation des données 
     const {error} = userValidation(req.body).userValidationLogin
@@ -65,9 +66,7 @@ exports.connexion = (req, res) => {
         token : jwt.sign({id : user._id}, "SECRET_KEY", {expiresIn: "12h"}) 
         
         })
-        
     })
-    
     .catch((error)=> res.status(500).json(error))
     
     })
